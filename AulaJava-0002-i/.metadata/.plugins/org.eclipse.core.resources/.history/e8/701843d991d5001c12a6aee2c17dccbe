@@ -1,0 +1,20 @@
+package br.com.treina.javaoo.classes;
+
+public class Veiculo {
+	
+	public String nome; 
+	public String marca; 
+	public String chasi;
+	public int quantidadeRodas;
+	
+	public void Ligar() {
+		System.out.println("O veículo está Ligado!");
+	}
+	
+	public void Desligar() {
+		System.out.println("O veículo está deslidado!");
+	}
+	
+}
+
+

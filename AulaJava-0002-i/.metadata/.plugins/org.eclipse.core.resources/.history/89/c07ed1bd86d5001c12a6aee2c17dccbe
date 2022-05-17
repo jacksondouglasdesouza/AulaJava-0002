@@ -1,0 +1,10 @@
+package br.com.treina.javaoo.classes;
+
+public class Veiculo {
+	
+	public String nome; 
+	public String marca; 
+	public String chasi;
+	
+	public int quantidadeRodas;
+}

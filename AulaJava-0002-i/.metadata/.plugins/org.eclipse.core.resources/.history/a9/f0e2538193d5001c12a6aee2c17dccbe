@@ -1,0 +1,27 @@
+package br.com.treina.javaoo.main;
+
+import br.com.treina.javaoo.classes.Veiculo;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		Veiculo honda = new Veiculo();
+		
+		honda.setMarca("Carro Novo");
+		honda.setNome("Civic Novo");
+		
+		Veiculo celta = new Veiculo();
+		
+		celta.setMarca("Celta Novo");
+		celta.setNome("Celtinha Novo");
+		
+		System.out.println("O carro é: " + celta.getNome());
+		celta.Ligar();
+		System.out.println("O carro 2 é: " + honda.getNome());
+		honda.Ligar();
+		
+		
+	}
+
+}

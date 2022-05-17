@@ -1,0 +1,12 @@
+package br.com.treina.javaoo.main;
+
+import br.com.treina.javaoo.classes.Veiculo;
+
+public class main {
+
+	public static void main(String[] args) {
+		Veiculo honda = new Veiculo();		
+
+	}
+
+}
